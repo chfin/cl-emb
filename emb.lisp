@@ -277,6 +277,7 @@ Functions get called with two parameters: match and list of registers.")
     (,(string (code-char 8209)) . "-")    ; Non-breaking hyphen
     (,(string (code-char 8211)) . "--")   ; En-dash
     (,(string (code-char 8212)) . "---")  ; Em-dash
+    (,(string (code-char 8470)) . "{\\textnumero}") ; Number sign
     )))
 
 (defun escape-for-latex (string)
